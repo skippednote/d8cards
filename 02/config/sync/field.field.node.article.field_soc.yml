@@ -1,0 +1,30 @@
+uuid: f6b44ac6-9dc0-43a7-922e-64384715f3c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_soc
+    - node.type.article
+    - paragraphs.paragraphs_type.social_media
+  module:
+    - entity_reference_revisions
+id: node.article.field_soc
+field_name: field_soc
+entity_type: node
+bundle: article
+label: 'Social Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      social_media: social_media
+    target_bundles_drag_drop:
+      social_media:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

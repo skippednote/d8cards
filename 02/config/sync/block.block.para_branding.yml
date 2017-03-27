@@ -1,0 +1,25 @@
+uuid: d2e861b9-956c-456c-a102-957d7913a788
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - para
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: para_branding
+theme: para
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

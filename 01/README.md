@@ -1,4 +1,4 @@
-# Day 01 ­ Configuration Management in D8
+# Day 01 ­ Paragraphs Module
 
 - Setup a new drupal site `d8dev`
 - Create a `content-type` `Book` with two fields:

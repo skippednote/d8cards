@@ -1,0 +1,22 @@
+uuid: 562136d0-0dc9-4387-ad76-18a239f3a51f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - para
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: para_messages
+theme: para
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,5 @@
+name: Paragratheme
+description: Theme for Day 02 of D8 Activity Cards.
+core: 8.x
+type: theme
+base theme: bartik
