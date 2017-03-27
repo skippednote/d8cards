@@ -1,0 +1,14 @@
+configform.config:
+  path: '/configform/config'
+  defaults:
+    _title: 'ConfigForm Config'
+    _form: '\Drupal\configform\Form\ConfigFormForm'
+  requirements:
+    _permission: 'access content'
+configform.content:
+  path: '/configform/content'
+  defaults:
+    _title: 'ConfigForm Content'
+    _controller: '\Drupal\configform\Controller\ConfigForm::content'
+  requirements:
+    _permission: 'access content'

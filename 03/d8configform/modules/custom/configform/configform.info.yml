@@ -1,0 +1,5 @@
+name: Config Form
+description: Create a custom config form.
+package: Custom
+type: module
+core: 8.x
