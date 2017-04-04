@@ -1,0 +1,6 @@
+table:
+  js:
+    js/table.js: {}
+  css:
+    theme:
+      css/table.css: {}

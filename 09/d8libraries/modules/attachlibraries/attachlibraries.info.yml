@@ -1,0 +1,4 @@
+name: Attach Libraries
+description: Attach Libraries to specific element type.
+type: module
+core: 8.x

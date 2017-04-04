@@ -6,3 +6,4 @@
 - [Day 03: ­ Building Configuration forms](./03)
 - [Day 05: ­ Drupal 8 Block System](./05)
 - [Day 08: ­ Plugin System - Text Filters](./08)
+- [Day 09: ­ Attaching assets (css/js) on D8](./09)
