@@ -1,0 +1,23 @@
+uuid: 7170519d-0055-4f2e-b007-98fc67273ef8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.stock_exchange_rate_card
+    - field.storage.block_content.field_last_
+id: block_content.stock_exchange_rate_card.field_last_
+field_name: field_last_
+entity_type: block_content
+bundle: stock_exchange_rate_card
+label: 'Last Price'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

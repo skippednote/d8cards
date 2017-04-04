@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * Implements hook_cron().
+ */
+function stockprice_cron() {
+  $blocks = \Drupal::entityTypeManager()
+    ->getStorage('block_content')
+    ->loadByProperties(['type' => 'stock_exchange_rate_card']);
+
+  foreach($blocks as $block) {
+    $symbol = $block->field_symbol->value;
+    $stock = get_stock_price($symbol);
+
+    var_dump($stock);
+
+    if ($stock->Status == 'SUCCESS') {
+      $block->field_last_ = $stock->LastPrice;
+      $block->field_change = $stock->Change;
+
+      $block->save();
+    }
+  }
+}
+
+function get_stock_price($symbol) {
+  $uri = "http://dev.markitondemand.com/MODApis/Api/v2/Quote/json?symbol=" . $symbol . "&callback=myFunction";
+  $client = new \GuzzleHttp\Client();
+  $res = $client->get($uri)->getBody();
+
+  return json_decode((string)$res);
+}

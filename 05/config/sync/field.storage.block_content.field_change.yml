@@ -1,0 +1,20 @@
+uuid: 24159021-eb81-4dad-9bf3-1f33df1766af
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_change
+field_name: field_change
+entity_type: block_content
+type: decimal
+settings:
+  precision: 10
+  scale: 10
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

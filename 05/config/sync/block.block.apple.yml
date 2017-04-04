@@ -1,0 +1,25 @@
+uuid: 7595f21f-3898-498e-8c66-e7ef27d4cb77
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:stock_exchange_rate_card:10159058-4c30-42cc-86a9-4ebc382293e2'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: apple
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:10159058-4c30-42cc-86a9-4ebc382293e2'
+settings:
+  id: 'block_content:10159058-4c30-42cc-86a9-4ebc382293e2'
+  label: Apple
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

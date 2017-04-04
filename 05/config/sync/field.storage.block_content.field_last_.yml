@@ -1,0 +1,20 @@
+uuid: eb4c1929-ba3a-4a81-8b2b-6bca1b880c8a
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_last_
+field_name: field_last_
+entity_type: block_content
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

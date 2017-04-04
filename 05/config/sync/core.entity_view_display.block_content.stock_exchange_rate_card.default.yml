@@ -1,0 +1,50 @@
+uuid: 74e2cd75-9f12-44ae-b992-e6d0151d1129
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.stock_exchange_rate_card
+    - field.field.block_content.stock_exchange_rate_card.field_change
+    - field.field.block_content.stock_exchange_rate_card.field_company_name
+    - field.field.block_content.stock_exchange_rate_card.field_last_
+    - field.field.block_content.stock_exchange_rate_card.field_symbol
+id: block_content.stock_exchange_rate_card.default
+targetEntityType: block_content
+bundle: stock_exchange_rate_card
+mode: default
+content:
+  field_change:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_company_name:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_last_:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_symbol:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden: {  }

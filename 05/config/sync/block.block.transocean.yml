@@ -1,0 +1,25 @@
+uuid: 6362eaff-75d5-4661-bf81-8960c2d0a862
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:stock_exchange_rate_card:e3cf9ac4-746b-4f9d-9d56-5d9f439f1457'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: transocean
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:e3cf9ac4-746b-4f9d-9d56-5d9f439f1457'
+settings:
+  id: 'block_content:e3cf9ac4-746b-4f9d-9d56-5d9f439f1457'
+  label: Transocean
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

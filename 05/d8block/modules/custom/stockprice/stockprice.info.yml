@@ -1,0 +1,4 @@
+name: Stock Price
+description: Update the Stock Exchange Rate Card blocks with price and changes.
+core: 8.x
+type: module
