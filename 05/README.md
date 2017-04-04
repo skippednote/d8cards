@@ -1,4 +1,4 @@
-# Day 03 ­ Building Configuration forms
+# Day 05 ­ Drupal 8 Block System
 
 - Setup a new drupal site `d8block`.
 - Update the `settings.local.php` to create the `config` directory at `../config/sync`.

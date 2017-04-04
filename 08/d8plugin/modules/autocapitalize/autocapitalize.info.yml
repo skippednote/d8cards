@@ -1,0 +1,4 @@
+name: Auto Capitalize
+description: A filter to Auto Capitalize given set of words.
+type: module
+core: 8.x

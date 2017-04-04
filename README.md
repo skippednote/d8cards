@@ -5,3 +5,4 @@
 - [Day 02: Paragraphs Module](./02)
 - [Day 03: ­ Building Configuration forms](./03)
 - [Day 05: ­ Drupal 8 Block System](./05)
+- [Day 08: ­ Plugin System - Text Filters](./08)
