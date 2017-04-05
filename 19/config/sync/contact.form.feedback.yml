@@ -1,0 +1,14 @@
+uuid: 05260979-309e-42d9-8bb1-ca5dd96d6925
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - no-reply@bassam.co
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

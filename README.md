@@ -11,6 +11,7 @@
 - [Day 12: Theming 101](./12)
 - [Day 13: Logging in D8](./13)
 - [Day 15: Creating a Custom Field Formatter](./15)
+- [Day 16: Dependency Injection Example / Service Container](./16)
 - [Day 17: Composer in your module to load PHP libraries](./17)
 - [Day 19: Twig Templating](./19)
 
@@ -32,7 +33,7 @@
 - [x] Logging in D8
 - [x] Features Module in D8
 - [x] Creating a Custom Field Formatter
-- [ ] Dependency Injection Example / Service Container
+- [x] Dependency Injection Example / Service Container
 - [x] Composer in your module to load PHP libraries
 - [ ] Events and Subscribers
 - [x] Twig Templating

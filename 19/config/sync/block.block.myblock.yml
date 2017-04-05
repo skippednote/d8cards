@@ -1,0 +1,20 @@
+uuid: 8ced5a83-08af-409f-a352-cff9e92f63ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - day19
+  theme:
+    - bartik
+id: myblock
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: my_block
+settings:
+  id: my_block
+  label: 'My block'
+  provider: day19
+  label_display: visible
+visibility: {  }
