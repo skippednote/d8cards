@@ -1,0 +1,4 @@
+ratings:
+  css:
+    theme:
+      css/rating.css: {}

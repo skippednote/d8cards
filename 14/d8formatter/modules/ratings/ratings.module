@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function ratings_theme() {
+  return [
+    'ratings' => [
+      'variables' => [
+        'rating' => NULL,
+      ],
+      'template' => 'ratings',
+    ],
+  ];
+}

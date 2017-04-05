@@ -10,3 +10,30 @@
 - [Day 10: Configuring your local site for Development](./10)
 - [Day 12: Theming 101](./12)
 - [Day 13: Logging in D8](./13)
+- [Day 15: Creating a Custom Field Formatter](./15)
+
+
+
+### Status
+- [x] Configuration Management in D8
+- [x] Paragraphs Module
+- [x] Building Configuration forms
+- [ ] Migration 101
+- [x] Drupal 8 Block System
+- [x] Services and Dependency Injection
+- [ ] Cron Queuing
+- [x] Plugin System - Text Filters
+- [x] Attaching assets (css/js) on D8
+- [x] Configuring your local site for Development
+- [ ] Creating a Custom D8 Content Entity Type
+- [x] Theming 101
+- [x] Logging in D8
+- [x] Features Module in D8
+- [x] Creating a Custom Field Formatter
+- [ ] Dependency Injection Example / Service Container
+- [ ] Composer in your module to load PHP libraries
+- [ ] Events and Subscribers
+- [ ] Twig Templating
+- [ ] Cache API and Cache Tags
+- [ ] Replacing hook_init / Doing something on every page
+
