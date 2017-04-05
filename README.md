@@ -11,6 +11,7 @@
 - [Day 12: Theming 101](./12)
 - [Day 13: Logging in D8](./13)
 - [Day 15: Creating a Custom Field Formatter](./15)
+- [Day 17: Composer in your module to load PHP libraries](./17)
 
 
 
@@ -31,7 +32,7 @@
 - [x] Features Module in D8
 - [x] Creating a Custom Field Formatter
 - [ ] Dependency Injection Example / Service Container
-- [ ] Composer in your module to load PHP libraries
+- [x] Composer in your module to load PHP libraries
 - [ ] Events and Subscribers
 - [ ] Twig Templating
 - [ ] Cache API and Cache Tags

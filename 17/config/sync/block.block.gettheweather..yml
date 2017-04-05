@@ -1,0 +1,22 @@
+uuid: 64dad9d7-1902-403a-b6a4-30e8a606dbf8
+langcode: en
+status: true
+dependencies:
+  module:
+    - weather
+  theme:
+    - bartik
+id: gettheweather.
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: weather
+settings:
+  id: weather
+  label: 'Get the weather.'
+  provider: weather
+  label_display: visible
+  lat: '28.7041'
+  long: '77.1025'
+visibility: {  }
