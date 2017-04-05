@@ -12,6 +12,7 @@
 - [Day 13: Logging in D8](./13)
 - [Day 15: Creating a Custom Field Formatter](./15)
 - [Day 17: Composer in your module to load PHP libraries](./17)
+- [Day 19: Twig Templating](./19)
 
 
 
@@ -34,7 +35,7 @@
 - [ ] Dependency Injection Example / Service Container
 - [x] Composer in your module to load PHP libraries
 - [ ] Events and Subscribers
-- [ ] Twig Templating
+- [x] Twig Templating
 - [ ] Cache API and Cache Tags
 - [ ] Replacing hook_init / Doing something on every page
 

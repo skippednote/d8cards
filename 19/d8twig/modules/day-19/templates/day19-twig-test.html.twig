@@ -1,0 +1,13 @@
+Your template goes here..
+
+{% if var1 %}
+  <span class="{{ classes | join("-") | clean_class}}">{{ var1 }}</span>
+{% endif %}
+
+{{ var2.2.3.g }}
+
+{{ "Hello" | t }}
+
+<div class="{% for i in 0..myclasscount %} minion-{{i}} {% endfor %}">
+  {{ title }}
+</div>
