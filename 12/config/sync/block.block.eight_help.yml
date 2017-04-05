@@ -1,0 +1,22 @@
+uuid: 23b7b318-91d0-4e88-b218-672060157abb
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - eight
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: eight_help
+theme: eight
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

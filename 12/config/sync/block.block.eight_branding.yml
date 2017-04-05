@@ -1,0 +1,25 @@
+uuid: 87333dc2-a5df-4186-830d-09e4babc2310
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eight
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: eight_branding
+theme: eight
+region: sidebar2
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

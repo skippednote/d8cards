@@ -1,0 +1,22 @@
+uuid: 304186d2-3dcd-4574-a01e-f0ee4276ca1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eight
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: eight_breadcrumbs
+theme: eight
+region: sidebar1
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

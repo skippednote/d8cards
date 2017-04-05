@@ -1,0 +1,14 @@
+name: eight
+type: theme
+description: Theme for Day 12
+package: theme
+core: 8.x
+libraries:
+  - eight/global-styling
+
+base theme: stable
+
+regions:
+  sidebar1: sidebar1
+  content: Content
+  sidebar2: sidebar2

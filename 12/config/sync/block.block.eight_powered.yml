@@ -1,0 +1,22 @@
+uuid: 7cc1054e-f6d9-4135-8894-cf81d11aa479
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eight
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: eight_powered
+theme: eight
+region: sidebar2
+weight: -3
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
