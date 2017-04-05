@@ -1,0 +1,14 @@
+uuid: e9a24cf4-ea99-48b3-a89f-c4279f3dc8d9
+name: D8Logging
+mail: no-reply@bassam.co
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

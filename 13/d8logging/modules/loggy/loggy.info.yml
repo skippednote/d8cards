@@ -1,0 +1,4 @@
+name: Loggy
+description: A logger for all your node saves.
+type: module
+core: 8.x

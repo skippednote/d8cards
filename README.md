@@ -9,3 +9,4 @@
 - [Day 09: Attaching assets (css/js) on D8](./09)
 - [Day 10: Configuring your local site for Development](./10)
 - [Day 12: Theming 101](./12)
+- [Day 13: Logging in D8](./13)

@@ -1,0 +1,14 @@
+<?php
+
+use Drupal\Core\Entity\EntityInterface;
+
+/**
+ * Implement hook_node_update().
+ */
+function loggy_node_update(EntityInterface $entity) {
+  \Drupal::logger('loggy')
+    ->notice('%label (%bundle) updated.', [
+      '%label' => $entity->label(),
+      '%bundle' => $entity->bundle(),
+    ]);
+}
